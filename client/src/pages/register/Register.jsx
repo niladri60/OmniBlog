@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import BottomBar from "../../components/bottomBar/BottomBar";
 import "./register.css";
 export default function Register() {
@@ -25,7 +26,7 @@ export default function Register() {
         />
         <button className="registerButton">Register</button>
       </form>
-      <button className="registerLoginButton">Login</button>
+      <button className="registerLoginButton"><Link to="/login" className="link">Login</Link></button>
       <BottomBar />
     </div>
   );
