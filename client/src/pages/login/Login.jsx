@@ -1,6 +1,5 @@
 import BottomBar from "../../components/bottomBar/BottomBar";
 import "./login.css";
-import Link from 'react-router-dom'
 export default function Login() {
   return (
     <div className="login">

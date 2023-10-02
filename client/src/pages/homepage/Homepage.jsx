@@ -5,7 +5,11 @@ import Sidebar from "../../components/sidebar/Sidebar";
 import "./homepage.css";
 import BottomBar from "../../components/bottomBar/BottomBar";
 
+
+
 export default function Homepage() {
+  
+
   const location = useLocation();
   console.log(location);
   return (

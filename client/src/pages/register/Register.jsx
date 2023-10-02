@@ -1,6 +1,5 @@
 import BottomBar from "../../components/bottomBar/BottomBar";
 import "./register.css";
-import Link from 'react-router-dom'
 export default function Register() {
   return (
     <div className="register">
