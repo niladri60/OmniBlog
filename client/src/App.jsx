@@ -1,4 +1,6 @@
 import Topbar from "./components/topbar/Topbar";
+import About from "./pages/about/About";
+import Contact from "./pages/contact/Contact";
 import Homepage from "./pages/homepage/Homepage";
 import Login from "./pages/login/Login";
 import Register from "./pages/register/Register";
@@ -15,6 +17,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/posts" element={<Homepage />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
         <Route
           path="/register"
           element={currentUser ? <Homepage /> : <Register />}
